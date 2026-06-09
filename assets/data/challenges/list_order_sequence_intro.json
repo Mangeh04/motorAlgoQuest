@@ -17,11 +17,7 @@
 		"constraints": []
 	},
 	"initialState": {
-		"nodes": [
-			{ "id": "n1", "value": 3 },
-			{ "id": "n2", "value": 1 },
-			{ "id": "n3", "value": 2 }
-		],
+		"nodes": [],
 		"edges": [],
 		"slots": [
 			{ "id": "s1", "index": 0 },

@@ -1,0 +1,31 @@
+{
+	"kind": "STRUCTURE",
+	"metadata": {
+		"title": "Completa el valor",
+		"instruction": "Arrastra el valor correcto al hueco",
+		"theoryRef": "fill_missing_value"
+	},
+	"constraints": [
+		{ "type": "MAX_ATTEMPTS", "maxAttempts": 3 },
+		{ "type": "LIVES_CONSUMED_ON_FAIL", "lives": 1 }
+	],
+	"engineConfig": {
+		"structureType": "LINKED_LIST",
+		"validationStrategy": "EXPECTED_SLOT_VALUES",
+		"layoutStrategy": "LINEAR",
+		"interactionMode": "DRAG",
+		"connectionType": "NONE",
+		"constraints": []
+	},
+	"initialState": {
+		"nodes": [],
+		"edges": [],
+		"slots": [{ "id": "s1", "index": 0 }],
+		"inventory": [2, 4]
+	},
+	"solution": {
+		"expectedSlotValues": {
+			"s1": 2
+		}
+	}
+}
